@@ -1,0 +1,63 @@
+.bodybackground{
+background-image: url("https://images.unsplash.com/photo-1616000315669-996bf389b1df?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxNjU4MjM0Ng&ixlib=rb-1.2.1&q=85"); 
+background-position: center;
+background-size: cover;
+}
+
+body{
+  border: double 20px;
+}
+
+h1{
+	color: white !important; 
+	font-size: 30px !important;
+  text-decoration: underline;
+  font-family: Merriweather, serif !important;
+  font-weight: bold !important;
+}
+
+#myCanvas{
+   border-width: 10px;
+   background-color: rgb(255, 255, 255);
+   border-style: ridge;
+}
+
+span{
+	font-size: 20px;
+  margin-left: 10px;
+  font-family: monospace;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+input{
+  border: solid 2px black;
+}
+
+button {
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 14px 23px;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #62b9f3;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+button:hover {
+      background-color: #0a90e9;
+}
+  
+button:active {
+    background-color:#0a90e9;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
